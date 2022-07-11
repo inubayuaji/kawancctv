@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="img/logo ig.png" sizes="32x32">
-    <link rel="icon" href="img/logo ig.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="img/logo ig.png">
+    <link rel="icon" href="/assets/img/logo ig.png" sizes="32x32">
+    <link rel="icon" href="/assets/img/logo ig.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/assets/img/logo ig.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans&display=swap"
