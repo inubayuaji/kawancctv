@@ -3,7 +3,7 @@
 @section('title', 'Kawan CCTV | Paket CCTV')
 
 @section('content')
-    @include('_component.header', [
+    @include('_components.header', [
         'title' => 'Paket CCTV',
         'subtitle' => 'Pilih CCTV sesuai kebutuhan anda',
     ])
