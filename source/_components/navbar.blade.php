@@ -2,7 +2,7 @@
     <div class="container mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
             <a class="leading-relaxed inline-block mr-4 py-2" href="{{ url('/') }}">
-                <img src="assets/img/logo color.png" class="h-10 md:h-14 lg:h-16">
+                <img src="/assets/img/logo color.png" class="h-10 md:h-14 lg:h-16">
             </a>
             <button
                 class="cursor-pointer leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"

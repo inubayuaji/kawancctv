@@ -1,7 +1,7 @@
 <div class="relative flex flex-wrap items-center justify-between px-2 py-8 md:py-20 bg-slate-900 text-white">
     <div class="container mx-auto flex flex-wrap gap-y-30">
         <div class="w-full md:w-1/3 py-2">
-            <img src="assets/img/logo hitam.png" class="h-10 md:h-14 lg:h-16 mb-3">
+            <img src="/assets/img/logo hitam.png" class="h-10 md:h-14 lg:h-16 mb-3">
             <p>Kawan CCTV melayani pemasangan, reparasi dan penjualan CCTV.</p>
         </div>
         <div class="flex-1 md:ml-32 py-2">

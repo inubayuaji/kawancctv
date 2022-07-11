@@ -59,11 +59,11 @@
 </head>
 
 <body>
-    @include('_component.navbar')
+    @include('_components.navbar')
 
     @yield('content')
 
-    @include('_component.footer')
+    @include('_components.footer')
 </body>
 
 </html>

@@ -3,7 +3,7 @@
 @section('title', 'Kawan CCTV | Paket CCTV Dahua')
 
 @section('content')
-    @include('_component.header', [
+    @include('_components.header', [
         'title' => 'Paket CCTV > Dahua',
         'subtitle' => 'Paket CCTV Dahua untuk anda.',
     ])
