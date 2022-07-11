@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-normal text-gray-800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-heading font-medium tracking-tight mt-0 mb-2;
+}
+
+h1 {
+    @apply text-5xl;
+}
+h2 {
+    @apply text-4xl;
+}
+h3 {
+    @apply text-3xl;
+}
+
+.btn {
+    @apply font-medium uppercase rounded-sm text-sm px-6 py-3 shadow hover:shadow-lg outline-none focus:outline-none ease-linear transition-all duration-150;
+}
+
+.btn-primary {
+    @apply bg-blue-500 text-white active:bg-blue-600;
+}
+
+.btn-sm {
+    @apply text-xs px-4 py-2 hover:shadow-md;
+}
+
+.btn-lg {
+    @apply text-base px-8 py-3 hover:shadow-lg;
+}
