@@ -28,3 +28,5 @@ Alpine.data("navbar", () => ({
         this.open = !this.open;
     },
 }));
+
+Alpine.start();
