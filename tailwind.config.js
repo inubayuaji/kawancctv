@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["source/**/*.blade.php", "source/**/*.md", "source/**/*.html"],
+  content: ["source/**/*.blade.php", "source/**/*.md", "source/**/*.html"],
   theme: {
     screens: {
       sm: "600px",
