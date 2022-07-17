@@ -5,6 +5,7 @@
 /.idea/
 /.vscode/
 npm-debug.log
+.cpanel
 
 # Optional ignores
 # /build_staging/
