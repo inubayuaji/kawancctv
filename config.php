@@ -5,5 +5,10 @@ return [
     'baseUrl' => '',
     'title' => 'Jigsaw',
     'description' => 'Website description.',
-    'collections' => [],
+    'collections' => [
+        'posts' => [
+            'path' => 'blog/{filename}',
+            'sort' => 'date'
+        ]
+    ],
 ];

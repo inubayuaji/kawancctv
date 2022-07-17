@@ -26,6 +26,11 @@
                         Paket
                     </a>
                 </li>
+                <li class="nav-item flex">
+                    <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:text-blue-500" href="{{ url('/blog') }}">
+                        Blog
+                    </a>
+                </li>
                 {{-- <li class="nav-item flex">
                     <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:text-blue-500"
                         href="#">
