@@ -1,5 +1,6 @@
 <?php
 
+use samdark\sitemap\Sitemap;
 use TightenCo\Jigsaw\Jigsaw;
 
 /** @var $container \Illuminate\Container\Container */
@@ -15,3 +16,27 @@ use TightenCo\Jigsaw\Jigsaw;
  *     // Your code here
  * });
  */
+
+$events->afterBuild(function (Jigsaw $jigsaw) {
+    generateSiteMap($jigsaw);
+});
+
+
+function generateSiteMap(Jigsaw $jigsaw)
+{
+    $baseUrl = 'https://kawancctv.com';
+    $sitemap = new Sitemap($jigsaw->getDestinationPath() . '/sitemap.xml');
+
+    collect($jigsaw->getOutputPaths())->each(function ($path) use ($baseUrl, $sitemap) {
+        if (!isAsset($path)) {
+            $sitemap->addItem($baseUrl . $path, time(), Sitemap::DAILY);
+        }
+    });
+
+    $sitemap->write();
+}
+
+function isAsset($path)
+{
+    return str_starts_with($path, '/assets');
+}
