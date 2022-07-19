@@ -20,19 +20,6 @@ jobs:
     
     steps:
       - uses: actions/checkout@v1
-      - name: Install Composer PHP dependencies
-        run: composer install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
-      - name: Install NPM dependencies
-        run: npm install
-      - name: Build the site
-        run: npm run prod
-      - name: Commit Change
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "[Bot] Update all the things!"
-          commit_user_name: inubayuaji
-          commit_user_email: inu.develop@gmail.com
-          commit_author: inubayuaji <inu.develop@gmail.com>
       - name: FTP Push
         uses: sebastianpopp/git-ftp-action@releases/v3
         with:
