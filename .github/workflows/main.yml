@@ -30,7 +30,7 @@ jobs:
         uses: sebastianpopp/git-ftp-action@releases/v3
         with:
           url: ftp://kawancctv@kawancctv.com
-          user: ${{ env.FTP_USER }}
-          password: ${{ env.FTP_PASSWORD }}
+          user: kawancctv@kawancctv.com
+          password: nH8yq9HxZTrB76
       
       
