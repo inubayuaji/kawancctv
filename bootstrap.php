@@ -29,7 +29,7 @@ function generateSiteMap(Jigsaw $jigsaw)
 
     collect($jigsaw->getOutputPaths())->each(function ($path) use ($baseUrl, $sitemap) {
         if (!isAsset($path)) {
-            $sitemap->addItem($baseUrl . $path, time(), Sitemap::DAILY);
+            $sitemap->addItem($baseUrl . normalizePath($path), time(), Sitemap::DAILY);
         }
     });
 
@@ -39,4 +39,13 @@ function generateSiteMap(Jigsaw $jigsaw)
 function isAsset($path)
 {
     return str_starts_with($path, '/assets');
+}
+
+function normalizePath($path)
+{
+    if (str_starts_with($path, '/')) {
+        return $path;
+    } else {
+        return '/' . $path;
+    }
 }
