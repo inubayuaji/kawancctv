@@ -4,6 +4,7 @@ title: Kenapa Hasil Video Rekaman CCTV Buruk
 featuredImage: assets/img/featured-images/kenapa-hasil-video-rekaman-cctv-buruk.jpg
 category: Teknik
 date: 19-07-2022
+timeRead: 2
 kyword: masalah, cctv, solusi
 ---
 

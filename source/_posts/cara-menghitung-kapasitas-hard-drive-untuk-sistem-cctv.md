@@ -4,6 +4,7 @@ title: Cara Menghitung Kapasitas Hard Drive untuk Sistem CCTV
 featuredImage: assets/img/featured-images/cara-menghitung-kapasitas-hard-drive-untuk-sistem-cctv.jpg
 category: Teknik
 date: 15-07-2022
+timeRead: 3
 kyword: kapasitas hardive, cctv, hard dive
 ---
 Jika Anda ada niat untuk memasang CCTV dan bertanya-tanya berapa banyak ruang hard drive yang dibutuhkan untuk menyimpan rekaman CCTV. Anda telah datang ke tempat yang tepat.

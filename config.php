@@ -8,7 +8,7 @@ return [
     'collections' => [
         'posts' => [
             'path' => 'blog/{filename}',
-            'sort' => 'date'
+            'sort' => '-date'
         ]
     ],
 ];
