@@ -2,7 +2,7 @@
 extends: _layouts.post
 title: Cara Menghitung Kapasitas Hard Drive untuk Sistem CCTV
 featuredImage: assets/img/featured-images/cara-menghitung-kapasitas-hard-drive-untuk-sistem-cctv.jpg
-category: Santai
+category: Teknik
 date: 15-07-2022
 kyword: kapasitas hardive, cctv, hard dive
 ---
